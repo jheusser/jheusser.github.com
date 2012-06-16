@@ -41,4 +41,4 @@ Looking at the local uncertainty time series shows a similar plot than in the pa
 References
 ----------
 
-[1] Lutz Molgedey and Werner Ebeling, <i>Local Order, Entropy and Predictability of Financial Time Series</i>,Eur. Phys. J. B 15, 733–737 
+[1] Lutz Molgedey and Werner Ebeling, <i>Local Order, Entropy and Predictability of Financial Time Series</i>, Eur. Phys. J. B 15, 733–737 
