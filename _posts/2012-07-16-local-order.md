@@ -35,8 +35,7 @@ order = localorder.local_uncertainty(dji_binary, 5, 3)
 
 Looking at the local uncertainty time series shows a similar plot than in the paper. The uncertainty is mostly very close to one, with occiasional dips below 90%.
 
-<img src ="/images/uncertainty.png" 
-     alt="Local Uncertainty" align="left" title="Local Uncertainty" class="img"</img>
+<img src ="/images/uncertainty.png" alt="Local Uncertainty" align="left" title="Local Uncertainty" class="img"</img>
 
 
 References
