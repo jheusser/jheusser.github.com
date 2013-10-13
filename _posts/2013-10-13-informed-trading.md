@@ -140,7 +140,6 @@ Naturally, this graph alone is not enough to conclude whether VPIN is a good cra
 <p>
 <img src ="/images/price_vs_vpin.png" alt="VPIN" align="center" title="VPIN" style="max-height: 700px; max-width: 700px;"></img>
 </p>
-<p> 
 
 
 # References
