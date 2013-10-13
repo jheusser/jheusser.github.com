@@ -108,21 +108,18 @@ The trades over the given period show the initial bottom at around $50, a recove
 <p>
 <img src ="/images/trades_1min.png" alt="Translation" align="center" title="Trades" style="max-height: 700px; max-width: 700px;"></img>
 </p>
-<p>
 
 The volume over the same period clearly shows the clustered nature of volume.
 
 <p>
 <img src ="/images/volume_1min.png" alt="Translation" align="center" title="Volume" style="max-height: 700px; max-width: 700px;"></img>
 </p>
-<p> 
 
 The next graph shows the time required to fill a volume bucket of 500BTC (on the y-axis). We can see that the duration of a volume bucket varies a lot; from a few seconds during the most active times to a maximum of 155 minutes. Especially right after the second crash on 17 April most buckets are below 5 minutes -- most likely made up of traders who are either getting rid of their inventory or who are 'buying the dip'.
 
 <p>
 <img src ="/images/bucket_durations.png" alt="Translation" align="center" title="Durations" style="max-height: 700px; max-width: 700px;"></img>
 </p>
-<p> 
 
 
 Also of interest is the (normalised) price distribution of the volume time returns versus the normal chronological time, as shown in [2]. 
@@ -131,7 +128,6 @@ The volume-time distribution is closer to an i.i.d normal distribution than the 
 <p>
 <img src ="/images/price_changes.png" alt="Price Distribution" align="center" title="Price Distribution" style="max-height: 700px; max-width: 700px;"></img>
 </p>
-<p> 
 
 Finally, an overlay of the price movement and VPIN over the whole period. During the 15 and 17 April VPIN is above 85% indicating high levels of toxicity -- similarly to the levels of toxicity after the flash crash. As the price recovered over the following days VPIN declined to around 63%. Toxicity peaked again twice in the period, around 26 April and 2 May which is just at the start of or during smaller price corrections.
 
