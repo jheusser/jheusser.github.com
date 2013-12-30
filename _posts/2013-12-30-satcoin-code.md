@@ -18,7 +18,7 @@ Keep in mind, this is research code which is unoptimised and not production read
 
 # Usage 
 
-The code can be found in this [github repo](https://github.com/jheusser/satcoin). It consists of one file _satcoin.c_ which contains a custom, CBMC-friendly SHA256 implementation (i.e. fixed-sized loops, no heap allocation, etc) and the assumptions and assertions necessary to define the SAT-based nonce search.
+The code can be found in this [github repo](https://github.com/jheusser/satcoin). It consists of one file _[satcoin.c](https://github.com/jheusser/satcoin/blob/master/satcoin.c)_ which contains a custom, CBMC-friendly SHA-256 implementation (i.e. fixed-sized loops, no heap allocation, etc) and the assumptions and assertions necessary to define the SAT-based nonce search.
 
 The code contains the [Genesis block](https://blockexplorer.com/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f) header by default (see the variable `input_block`) and assumes a search over only two different nonces for demonstration purposes. An example run with default settings should look similar to:
 {% highlight python %}
@@ -46,7 +46,7 @@ The file _satcoin.c_ can be compiled by GCC to ensure that the correct hash is a
 
 The global variable `input_block` contains 20 32-bit integers of the first 640 bits of the block header which should be solved. The last integer is the nonce which can be filled with zeros or arbitrary numbers.
 
-The actual SHA256 code is being computed in the function `verifyhash` which contains CBMC pre- and postconditions defining the SAT-based bitcoin mining algorithm. The Precondition defines a pointer into the nonce field which is first set to a non-deterministic value. Depending on your experiment, the nonce search can be restricted to a range of values. 
+The actual SHA-256 code is being computed in the function `verifyhash` which contains CBMC pre- and postconditions defining the SAT-based bitcoin mining algorithm. The precondition defines a pointer into the nonce field which is first set to a non-deterministic value. Depending on your experiment, the nonce search can be restricted to a range of values. 
 {% highlight c %}
   unsigned int *u_nonce = ((unsigned int *)block+16+3);
   *u_nonce = nondet_uint();
