@@ -10,9 +10,9 @@ title: Using Benfords Law to identify fake Bitcoin exchange transactions
 
 <p class="meta">18 April 2014</p>
 
-# Fake Bitcoin volumes
+# Fake volumes
 
-Bitcoin exchanges are booming -- new exchanges appear out of nowhere, some already with considerable volume (for new exchanges). Clearly, every trader wants to trade on the most liquid exchange, as that exchange most likely has the best prices and fastest executions. Therefore there's a big incentive for exchanges to attract liquidity somehow, either through a good fee structure or just by spending more money on marketing. For less honest exchanges there's another option: simply faking transaction data.
+Bitcoin exchanges are booming -- on a weekly basis new exchanges appear out of nowhere, some already with considerable volume (for new exchanges). Clearly, every trader wants to trade on the most liquid exchange, as that exchange most likely has the best prices and fastest executions. Therefore there's a big incentive for new exchanges to attract liquidity somehow, either through a good fee structure or just by spending more money on marketing. For less honest exchanges there's another option: simply faking transaction data.
 
 Recently, one of the bigger Chinese Bitcoin exchanges got <a href="http://www.coindesk.com/chinese-bitcoin-exchange-okcoin-accused-faking-trading-data/">accused of faking transaction data</a> in order to appear more attractive than they really were. 
 
